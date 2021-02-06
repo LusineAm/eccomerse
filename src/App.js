@@ -1,17 +1,15 @@
-import './App.css';
+import React from 'react';
+
 import Header from './containers/Header/Header';
 import Layout from './component/Layout/Layout';
-import Footer from './containers/Footer/Footer';
+import Product from './containers/Products/Product';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Layout>
-        <main className="app-main-content">
-          <span>products</span>
-        </main>
-        <Footer />
+        <Product />
       </Layout>
     </div>
   );

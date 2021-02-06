@@ -1,12 +1,16 @@
-import React from 'react';
+import React from "react";
 
-import './Layout.scss';
+import Footer from "../../containers/Footer/Footer";
+import "./Layout.scss";
 
-const Layout = ({children}) => {
-    return (
-        <div className="app-layout">
-            {children}
-        </div>
-    )
-}
+const Layout = ({ children }) => {
+  return (
+    <div className="app-layout">
+      <main className="app-layout-content">
+          {children}
+      </main>
+      <Footer />
+    </div>
+  );
+};
 export default Layout;
