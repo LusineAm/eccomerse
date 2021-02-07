@@ -1,6 +1,7 @@
 import React from 'react';
-import Button from '../../../component/Button/Button';
-import Input from '../../../component/Input/Input';
+
+import Button from '../../../components/Button/Button';
+import Input from '../../../components/Input/Input';
 
 class Signup extends React.Component {
     render(){
