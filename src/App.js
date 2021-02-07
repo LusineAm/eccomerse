@@ -14,6 +14,6 @@ function App() {
       </Layout>
     </div>
   );
-}
+};
 
 export default App;
