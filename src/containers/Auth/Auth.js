@@ -3,6 +3,8 @@ import React, {Component} from 'react';
 import Login from './Login/Login';
 import Signup from './Signup/Signup';
 
+import './Auth.scss';
+
 class Auth extends Component {
 
     state = {

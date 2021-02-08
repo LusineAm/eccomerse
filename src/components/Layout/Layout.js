@@ -1,6 +1,7 @@
 import React from "react";
 
 import Footer from "../../containers/Footer/Footer";
+
 import "./Layout.scss";
 
 const Layout = ({ children }) => {
@@ -13,4 +14,5 @@ const Layout = ({ children }) => {
     </div>
   );
 };
+
 export default Layout;
