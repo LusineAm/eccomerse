@@ -3,6 +3,8 @@ import React from 'react';
 import Input from '../../../components/Input/Input';
 import Button from '../../../components/Button/Button';
 
+import './Login.scss';
+
 class Login extends React.Component{
     render(){
         return (
